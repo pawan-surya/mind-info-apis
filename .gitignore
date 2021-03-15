@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+build
+npm-debug.log
+.DS_Storegit remote add origin  

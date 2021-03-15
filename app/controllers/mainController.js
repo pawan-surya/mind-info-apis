@@ -105,7 +105,7 @@ exports.userIndex = ((req, res) => {
             res.status(200).json({
                 count: docs.length,
                 status_code: 200,
-                order: docs.map(doc => {
+                user: docs.map(doc => {
                     return {
                         _id: doc.id,
                         name: doc.name,
